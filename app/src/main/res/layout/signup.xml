@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    android:background="@drawable/building"
+    tools:context=".Activities.Signup">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="Employee Registration"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+         android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:textColorHint="@color/blue"
+                app:boxBackgroundColor="@color/blue">
+
+                <EditText
+                    android:id="@+id/emailid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/white"
+                    android:ellipsize="start"
+                    android:hint="Email Id"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/blue"
+                    android:textColorHighlight="@color/blue"
+                    android:textColorHint="@color/blue"
+                    android:textColorLink="@color/blue" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:textColorHint="@color/blue"
+                app:boxBackgroundColor="@color/blue">
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/white"
+                    android:ellipsize="start"
+                    android:hint="Phone Number"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/blue"
+                    android:textColorHighlight="@color/blue"
+                    android:textColorHint="@color/blue"
+                    android:textColorLink="@color/blue" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:textColorHint="@color/blue"
+                app:boxBackgroundColor="@color/blue">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/white"
+                    android:ellipsize="start"
+                    android:hint="First Name"
+                    android:id="@+id/firstname"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/blue"
+                    android:textColorHighlight="@color/blue"
+                    android:textColorHint="@color/blue"
+                    android:textColorLink="@color/blue" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:textColorHint="@color/blue"
+                app:boxBackgroundColor="@color/blue">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/white"
+                    android:ellipsize="start"
+                    android:hint="Last Name"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/blue"
+                    android:textColorHighlight="@color/blue"
+                    android:textColorHint="@color/blue"
+                    android:textColorLink="@color/blue" />
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="162dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bluebutton"
+                android:gravity="center"
+                android:text="Login"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

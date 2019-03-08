@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "675263172237",
+    "firebase_url": "https://emergency-19094.firebaseio.com",
+    "project_id": "emergency-19094",
+    "storage_bucket": "emergency-19094.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675263172237:android:7329c17bc3657430",
+        "android_client_info": {
+          "package_name": "com.srinivas.emergencymail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675263172237-ill3mnhhlqlqugtfu075ena63juj6ebo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.srinivas.emergencymail",
+            "certificate_hash": "4fe558ed438edd409d3c38b0a8cb4fad6a1e2558"
+          }
+        },
+        {
+          "client_id": "675263172237-s78bvcndq2rt73qrd8lmc1bf6opqpe0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEzbXVV9yVm44BbLrL490jynqGHKuu3oE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675263172237-s78bvcndq2rt73qrd8lmc1bf6opqpe0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

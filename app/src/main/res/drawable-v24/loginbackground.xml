@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+<selector
+    android:alpha="50%"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <rotate android:drawable="@drawable/logincurve"
+            android:pivotX="50%" android:pivotY="50%" />
+    </item>
+
+    <item>
+        <rotate android:drawable="@drawable/logincurve"
+            android:pivotX="50%" android:pivotY="50%" />
+    </item>
+
+</selector>-->
+
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:alpha="50"
+    android:src="@drawable/bgcurve">
+
+    <corners
+        android:bottomLeftRadius="30dp"
+        android:bottomRightRadius="30dp"
+        android:radius="60dp"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp" />
+
+</bitmap>
